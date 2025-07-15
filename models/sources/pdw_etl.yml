@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: pdw_etl
+    database: pdw_dev  # Your Snowflake database name
+    schema: pdw_etl  # Your Snowflake schema name
+    tables:      
+      - name: MOUNICATELUGU_FILMS
